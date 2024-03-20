@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <!-- Font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Hoja de vida Pablo Alfonso Vargas</title>
+</head>
+
+<body class="row bg-dark text-light position-relative w-100 vh-100 text-shadow">
+
+    <!-- NAVEGACION -->
+    <nav class="navbar navbar-dark bg-dark vh-100 col-1 d-md-none" style="width: 80px">
+        <div class="container">
+            <div>
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fs-4">
+                    <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Inicio">
+                        <a href="#" class="nav-link active" aria-current="page"><i
+                                class="bi bi-house text-success"></i></a>
+                    </li>
+                    <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Información">
+                        <a href="#acerca" class="nav-link"><i class="bi bi-person"></i></a>
+                    </li>
+                    <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Servicios">
+                        <a href="#servicios" class="nav-link"><i class="bi bi-briefcase"></i></a>
+                    </li>
+                    <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Contacto">
+                        <a href="#contacto" class="nav-link"><i class="bi bi-telephone"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header class="position-relative vh-100 col-10 col-md-4" style=" background-color: #777799;">
+        <div class="position-relative top-50 mt-5 row row-cols-1 text-center">
+            <h4 class="font-monospace">Pablo Alfonso Vargas Melgar</h4>
+            <h4 class="font-monospace">Desarrollador de Software</h4>
+            <div class="row mt-3 mx-auto">
+                <ul class="row list-unstyled fs-5">
+                    <li class="col">
+                        <a href=""><i class="bi bi-facebook text-light"></i></a>
+                    </li>
+                    <li class="col">
+                        <a href=""><i class="bi bi-github text-light"></i></a>
+                    </li>
+                    <li class="col">
+                        <a href=""><i class="bi bi-linkedin text-light"></i></a>
+                    </li>
+                    <li class="col">
+                        <a href=""><i class="bi bi-globe text-light"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="row col-12 col-md-8">
+
+        <section id="acerca" class="ms-3">
+            <h2 class="font-monospace mt-4">Acerca de mi</h2>
+            <div class="row col-12 text-success mt-3">
+                <div class="col">Experiencia +10 años</div>
+                <div class="col">Localidad / Guatemala C.A</div>
+                <div class="col">Freelance</div>
+            </div>
+            <p class="text-secondary mt-3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse,
+                perspiciatis quisquam quas fugit fuga quam impedit ipsum soluta
+                necessitatibus doloribus, maiores iusto asperiores, a nemo assumenda
+                quia consectetur iure blanditiis!
+            </p>
+            
+            <button class="btn btn-outline-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#ocAbout"
+                aria-controls="ocAbout">CV</button>
+            
+
+            <div class="offcanvas offcanvas-end w-75 bg-dark" tabindex="-1" id="ocAbout">
+                <div class="offcanvas-header">
+                    <h5 class="text-success">Datos Generales</h5>
+                    <button type="button" class="btn-close btn-close-white"
+                                    data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <h4 class="display-4 mb-3">Pablo A. Vargas Melgar</h4>
+                    <h4 class="display-6 mb-4 text-white-50">
+                        Desarrollador de Software Full Stack
+                    </h4>
+                    <h4 class="display-6 mb-2 font-monospace">Acerca de mi</h4>
+                    <p class="text-white-50">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+                        doloremque nesciunt nulla adipisci totam doloribus delectus
+                        praesentium pariatur earum itaque quisquam aliquid corporis omnis
+                        architecto consectetur nisi, aspernatur deleniti eveniet?
+                    </p>
+                    <h4 class="display-6 mb-2 font-monospace">Objetivos de carrera</h4>
+                    <p class="text-white-50">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+                        doloremque nesciunt nulla adipisci totam doloribus delectus
+                        praesentium pariatur earum itaque quisquam aliquid corporis omnis
+                        architecto consectetur nisi, aspernatur deleniti eveniet?
+                    </p>
+                    <h4 class="display-6 mb-2 font-monospace">
+                        Habilidades <small class="fs-6">(aprendiendo)</small>
+                    </h4>
+
+                    <p class="text-white-50">Arquitectura de Software</p>
+                    <div class="progress mb-1">
+                        <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 95%">95%</div>
+                    </div>
+                    <p class="text-white-50">Diseño de Software</p>
+                    <div class="progress mb-1">
+                        <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 95%">95%</div>
+                    </div>
+                    <p class="text-white-50">Desarrollo de Software</p>
+                    <div class="progress mb-1">
+                        <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 95%">95%</div>
+                    </div>
+                    <p class="text-white-50">Resolución de problemas</p>
+                    <div class="progress mb-1">
+                        <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 95%">95%</div>
+                    </div>
+                    <p class="text-white-50">Pensamiento critico</p>
+                    <div class="progress mb-1">
+                        <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 95%">95%</div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="servicios" class="ms-3">
+            <h2 class="font-monospace mt-4">Servicios</h2>
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col card bg-transparent">
+                    <div class="card-body">
+                        <i class="bi bi-display h1 text-success"></i>
+                        <h5 class="card-title mt-3">Desarrollo de Software</h5>
+                        <p class="card-text">
+                            Desarrollo de soluciones basadas en sus especificaciones técnicas
+                        </p>
+                        <button class="btn btn-outline-success w-100" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#oc_dev" aria-controls="oc_dev">
+                            mostrar más...
+                        </button>
+
+                        <div class="offcanvas offcanvas-end w-75 bg-dark" tabindex="-1" id="oc_dev">
+                            <div class="offcanvas-header">
+                                <h5 class="text-success">Desarrollo de Software</h5>
+                                <button type="button" class="btn-close btn-close-white"
+                                    data-bs-dismiss="offcanvas"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <h4 class="display-4 mb-3">Qué es el Desarrollo de Software?</h4>
+
+                                <p class="text-white-50 mt-2">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Quaerat, laudantium omnis tenetur assumenda cumque, debitis
+                                    rerum ex quos natus quam sequi aliquid, nisi molestiae non
+                                    nam? Provident at sint aspernatur!
+
+                                    Aplicaciones utilizadas para el Desarrollo de Software
+                                    <i class="fab fa-html5"></i> HTML,
+                                    <i class="fab fa-css3-alt"></i>CSS y <i class="fab fa-js"></i> JavaScript del lado
+                                    del Cliente,
+                                    <i class="fab fa-php"></i> PHP,
+                                    <i class="fab fa-python"></i> Python,
+                                    <i class="fab fa-node-js"></i>Node.js, o
+                                    <i class="fab fa-java"></i>Java del lado del Servidor.
+                                </p>
+                                <h4 class="display-4 mb-3">
+                                    Qué es el Desarrollo Front-end?
+                                </h4>
+                                <i class="fab fa-html5 fa-3x me-3"></i><i class="fab fa-css3-alt fa-3x me-3"></i><i
+                                    class="fab fa-js fa-3x me-3"></i>
+                                <i class="fab fa-bootstrap fa-3x me-3"></i>
+                                <p class="text-white-50 mt-2">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Quaerat, laudantium omnis tenetur assumenda cumque, debitis
+                                    rerum ex quos natus quam sequi aliquid, nisi molestiae non
+                                    nam? Provident at sint aspernatur!
+                                </p>
+                                <h4 class="display-4 mb-3">
+                                    Qué es el Desarrollo Back-end?
+                                </h4>
+                                <i class="fab fa-js fa-3x me-3 text-warning"></i>
+                                <i class="fab fa-php fa-3x me-3"></i>
+                                <i class="fab fa-python fa-3x me-3"></i>
+                                <i class="fab fa-node-js fa-3x me-3"></i>
+
+                                <p class="text-white-50 mt-2">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Quaerat, laudantium omnis tenetur assumenda cumque, debitis
+                                    rerum ex quos natus quam sequi aliquid, nisi molestiae non
+                                    nam? Provident at sint aspernatur!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="ms-3">
+            <h2 class="font-monospace mt-4">Información de contacto</h2>
+            <ul class="row list-unstyled text-sm-start text-center">
+                
+                <li class="col-6 p-2"><i class="bi bi-geo-alt text-success"></i> 12 Ave. Monte María, Zona 12, Villa
+                    Nueva</li>
+                <li class="col-6 p-2"><i class="bi bi-telephone text-success"></i> (502) 5615-3998</li>
+                <li class="col-6 p-2"><i class="bi bi-phone text-success"></i> (502) 2477-2826</li>
+                <li class="col-6 p-2"><i class="bi bi-envelope text-success"></i> pablovargasmelgar@gmail.com</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer class="position-fixed bottom-0 bg-success text-center">
+        <small class="col">&copy; 2024 Pablo Vargas.</small>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+    <script>
+        var tooltipTriggerList = [].slice.call(
+            document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        );
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+    </script>
+
+</body>
+
+</html>
